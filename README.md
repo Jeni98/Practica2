@@ -7,5 +7,6 @@ En la pagina encontraras una breve descripcion de la empresa y los productos que
 Hallaras un indice, en el cual, encontraras una breve encuesta sobre el producto que mas te guste.
 De igual forma, encontraras un video de descripcion para que aprendas mas de la empresa.
 
-## Link
+## Link de la pagina web
+- https://jeni98.github.io/Practica2/
 
