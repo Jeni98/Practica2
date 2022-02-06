@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta</title>
+</head>
+<body>
+<h>
+    <center>
+        <img src="https://empresariosencolombia.com/wp-content/uploads/2019/03/gruponutresalogo-1024x422.jpg">
+    </center>
+</h>
+<form>
+    Ayudanos a seguir creciendo. Completa todos los campos.
+    <br>
+    <label>Nombre completo</label>
+    <input type="text" id="Nombre completo" name="Nombre">
+    <br>
+    <label>Correo electronico</label>
+    <input type="email" id="Correo electronico" name="email">
+    <br>
+    <label>Sexo</label>
+    <input id="mujer" type="radio" name="sexo" value="mujer">
+    <label for="mujer">Mujer</label>
+    <input id="hombre" type="radio" name="sexo" value="hombre">
+    <label for="hombre">Hombre</label>
+    <br>
+    <label for="producto">¿Que producto le gusta?</label>
+    <select id="producto">
+        <option>Escoge una opción</option>
+        <option>Galletas</option>
+        <option>Chocolates</option>
+        <option>Cafés</option>
+        <option>Helados</option>
+        <option>Pastas</option>
+    </select>
+    <br>
+    <label for="pregunta">¿Por que le gusta ese producto?</label>
+    <br>
+    <textarea rows="5" cols="50" name="pregunta" id="pregunta"></textarea>
+    <br>
+    <label for="comentario">¿Que le gustaria mejorar del producto?</label>
+    <br>
+    <textarea rows="5" cols="50" name="comentario" id="comentario"></textarea>
+    <br>
+    <input type="submit" value="enviar">
+
+</form>
+</body>
+</html>
